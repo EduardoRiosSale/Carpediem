@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Lenguaje y Módulos */
+    "target": "ES2022",                                  
+    "module": "NodeNext",                                
+    "moduleResolution": "NodeNext",                      
+    
+    /* Carpetas */
+    "rootDir": "./src",                                  
+    "outDir": "./dist",                                  
+    
+    /* Reglas Estrictas (El valor de usar TypeScript) */
+    "strict": true,                                      
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    
+    /* Interoperabilidad y Optimizaciones */
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "skipLibCheck": true                                 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

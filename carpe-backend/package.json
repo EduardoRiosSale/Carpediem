@@ -1,0 +1,45 @@
+{
+  "name": "carpediem",
+  "version": "1.0.0",
+  "description": "Backend para sistema de gestión de gimnasio",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "gym",
+    "backend",
+    "clean-architecture"
+  ],
+  "author": "Eduardo Rios Sale",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mercadopago": "^2.12.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.5",
+    "pg": "^8.20.0",
+    "resend": "^6.12.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.19.17",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^8.0.0",
+    "@types/pg": "^8.20.0",
+    "morgan": "^1.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
